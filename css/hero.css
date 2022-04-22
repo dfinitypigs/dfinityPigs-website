@@ -1,0 +1,13 @@
+#hero {
+	min-height: 100vh;
+	position: fixed;
+	top: 50px;
+}
+
+#hero__image {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	object-position: top;
+}
+

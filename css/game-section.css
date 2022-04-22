@@ -1,0 +1,92 @@
+#game-section {
+	position: relative;
+	padding-top: 3rem;
+	background-color: var(--background-primary);
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+}
+
+#game-section > img {
+	max-width: 50%;
+	max-height: 300px;
+	border: 20px solid rgb(255, 255, 255);
+	border-radius: 360px;
+}
+
+#game-section > h1 {
+	text-align: center;
+	color: var(--title-color-secondary);
+}
+#playstores {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.playstores-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.playstores-item-button {
+	height: 100px;
+	width: 300px;
+	background: url('./../assets/icons/app-store.svg');
+	background-repeat: no-repeat;
+}
+.game-image {
+	height: 175px;
+	max-width: 90%;
+}
+
+.app-btn {
+	width: 65%;
+	max-width: 160px;
+	color: #fff;
+	margin: 2rem 1rem;
+	text-align: left;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.app-btn-blu {
+	background-color: #101010;
+	transition: background-color 0.25s linear;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.app-btn-blu:hover {
+	background-color: #454545;
+}
+
+.app-btn > img {
+	width: 20%;
+	text-align: center;
+	font-size: 28px;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+.big-txt {
+	font-size: 17px;
+	text-transform: capitalize;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.playstores-item {
+		padding: 1rem;
+		min-width: 400px;
+	}
+	
+	.game-image {
+		height: 200px;
+		max-width: 100%;
+	}
+}

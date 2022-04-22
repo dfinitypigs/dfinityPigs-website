@@ -1,0 +1,19 @@
+#story {
+	position: relative;
+	background-color: var(--background-secondary);
+	padding: 3rem 1rem;
+}
+
+#story > h1 {
+	color: var(--title-color-primary);
+	text-align: center;
+}
+
+#story > .story-text {
+	padding: 1rem;
+	margin-top: 3rem;
+	font-size: 18px;
+	line-height: 34px;
+	color: var(--text-color-primary);
+	text-align: justify;
+}

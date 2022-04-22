@@ -1,0 +1,15 @@
+#roadmap {
+	position: relative;
+	background-color: var(--background-primary);
+}
+
+#roadmap > h1 {
+	text-align: center;
+	line-height: 60px;
+}
+
+#roadmap > picture >img {
+	width: 100%;
+	object-fit: contain;
+	height: auto;
+}

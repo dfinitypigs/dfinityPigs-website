@@ -1,0 +1,75 @@
+#mint-body{
+    background: url("./../assets/sections/hero-section-m.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat-y;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+#mint-text-content{
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    flex-direction: column;
+    gap: var(--padding-default);
+}
+
+#mint-text-content > h1{
+    color: var(--text-color-primary);
+    text-align: center;
+}
+
+#mint-text-content > span {
+    line-height: 28px;
+}
+
+.rotate-left {
+	transform: rotate(10deg);
+}
+
+.rotate-right {
+	transform: rotate(-10deg);
+}
+
+
+.baby-galery{display: flex;flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem}
+
+.babypig {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ffffff;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) { 
+    #mint-body{
+        background: url("./../assets/sections/hero-section.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: repeat-y;
+
+    }
+
+    #mint-text-content{
+        padding: 3rem;
+        width: 80vw;
+    }
+
+    .baby-galery{
+        gap: 2rem;
+    }
+}

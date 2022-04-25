@@ -57,7 +57,7 @@
 
 @media screen and (min-width: 1024px) { 
     #mint-body{
-        background: url("./../../assets/sections/hero-section.jpg");
+        background: url("./../../assets/sections/hero-section.webp");
         background-size: cover;
         background-position: top;
         background-repeat: repeat-y;

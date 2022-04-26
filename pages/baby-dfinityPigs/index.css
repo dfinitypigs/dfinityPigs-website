@@ -1,5 +1,5 @@
 #mint-body{
-    background: url("./../../assets/sections/hero-section-m.jpg");
+    background: url("./../../assets/sections/hero-section-m.webp");
     background-size: cover;
     background-position: top;
     background-repeat: repeat-y;
@@ -48,8 +48,8 @@
 .baby-galery{display: flex;flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem}
 
 .babypig {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 2px solid #ffffff;
     padding-bottom: 20px;
     background-color: #ffffff;
